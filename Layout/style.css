@@ -1,0 +1,310 @@
+@charset "UTF-8";
+/* --------------------------------------------CSS Document ----------------------*/
+
+/*-------------------------------------------- Body style---------------------- */  
+
+body{  
+  width:1024px;
+  margin:0 auto;  
+  background-color:black;
+background-image:
+radial-gradient(grey, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(grey, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(grey, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  font: 13px/18px Helvetica;
+  color: red;    
+}
+
+#intro{
+  margin:15px;  
+  background-image:none;
+  box-shadow:none;
+  color:#D0D0D0;
+  font-style:regular;
+  font-size:12px;
+}
+
+/*---------------------- Header, Nav and Footer, Aside, Section general style--------------*/
+
+
+header, nav, footer, aside, #main {
+  color: black;
+  margin:10px 0px;  
+  background-color:#202020;
+background-image:
+radial-gradient(grey, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(#888888 , rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px; 
+  border-radius:8px;
+  box-shadow:#CCC 1px 1px 1px;
+}
+
+/* ----------------------------------------The header------------------------ */ 
+
+header{
+  height:80px;
+  background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 20px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 20px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 20px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 20px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 20px 60px, 130px 270px, 70px 100px;
+}
+
+header hgroup{
+  float:right;
+  margin-left:20px;
+}
+
+header img{	
+  height: 60px;
+  margin: 10px;
+  float: left;
+}
+
+/* --------------------------------------Navigation bar--------------------------- */ 
+
+nav{
+  height:40px;
+  background-image:url(images/backgrounds/anav.png);
+}
+
+#nav_social img{
+  display:block;
+  border-radius:4px;
+  height: 26px;  
+}
+
+#nav_links {
+  float:left;
+}
+
+#nav_social {
+   float:right;
+}
+
+nav ul{
+  list-style-type: none;
+  padding:0px;
+  margin:0px;
+}
+
+nav ul li{
+  float: left;
+  margin: 5px 5px 5px 10px;
+  width: 100px;  
+  line-height: 26px;    
+  text-align: center;  
+}
+
+#nav_social li {
+  width: auto;
+}
+
+#nav_links ul li a{
+  color: #F8F8F8;
+  text-decoration: none;  
+  text-transform:lowercase;
+  font-size: 14px; 
+  font-weight:bold;
+}
+
+#nav_links ul li a:hover{
+  color: #808080;  
+  text-shadow:#000 0px 0px;
+}
+
+#nav_links ul{
+  list-style-type: none;
+  padding:0px;
+  margin:0px;
+}
+
+nav .navsearch{
+	float: right;
+	margin: 5px;	
+}
+
+#main{
+  width:1024px;
+  min-height:480px;
+  float:center;
+  border:1px solid color:white;
+  color: white;
+}
+
+/* ----------------------Footer--------------------------- */ 
+
+.clearFloatingBoxes{
+  clear:both;
+}
+
+footer{
+  height:60px;
+  background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+footer hgroup ul{
+ text-align: center;
+ color: white;
+ line-width: 90;
+}
+
+.copyright{
+ text-align: center;
+ color: white;
+ font-size: 10px;
+}
+/* ----------------------Article--------------------------- */
+
+.article_sum{
+  color:#D0D0D0 ;
+  display: inline-block;
+  vertical-align: top;
+  margin:20px;  
+  padding:10px;
+  width:880px;
+  min-height:220px;  
+  border-radius: 10px;
+  border:1px solid #B0B0B0
+  background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+}
+
+.article_sum header{
+  color:#F8F8F8 ;
+  padding:0px;
+  margin:0px;
+  background:none;
+  box-shadow:none;
+  height:auto;
+}
+
+.article_sum header h3{
+  padding:0px;
+  margin:0px;	
+}
+
+.article_sum header small{
+  color:#D0D0D0;
+  font-style:italic;
+  font-size:12px;
+  text-decoration:none;
+}
+
+.article_sum p{
+  text-decoration:none;
+  text-align:justify;
+  font-size: 12px; 
+}
+
+.article_sum img{
+  width: 80px;  
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+/*------------------------------- Main -------- */ 
+
+#main .t_desc{
+  padding-left:20px;
+  padding-right:10px;
+  font-weight:regular;
+  color: #F8F8F8;
+}
+
+#main .f_box{
+  width:240px;
+} 
+
+#main .f_button{
+  float:right;
+  width:60px;
+  height:30px;
+  margin-right:10px;
+}
+#main input{
+  margin-right:40px;
+}
+	
+#main textarea{
+  width:560px;
+  height:120px;
+  margin-right:10px;
+}
+#main fieldset{
+  width:600px;
+  margin:0px auto;
+  box-shadow:2px 2px color:#F8F8F8;
+  color: #F8F8F8;
+}
+#main .text1 input{
+	margin-right: 0;
+}
+#main .text1 label{
+	margin-right: 40px;
+}
+
+
+.buttons{
+	text-align:right;
+	padding-right:20px;
+}
+
+#main .buttons input{
+	margin-right:0;
+	margin-left:10px;
+}
+
+.article_sum .center{
+  text-align:center;
+}
+
+.article_sum table{
+  border:2px;
+  border-radius:5px;
+}
+
+.article_sum td, .article_sum th{
+  border:1px;
+  border-radius:2px;
+  margin:0px auto;
+  width:80px;
+}
+
+/*------------------------------------- Video measurements---------------------- */ 
+
+.article_sum video{
+	width:320px;
+	border:1px solid grey;
+}
+
+/*--------------------------- Form styling -------------------------- */ 
+
+
+.t_desc:first-letter{font-size:18px;
+}
+
+#main p:before { content:"~|"; 
+}
+
+#main p:after { content:"|~"; 
+}
